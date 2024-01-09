@@ -22,6 +22,7 @@ import * as z from "zod";
 import Logo from "../../../../public/cypresslogo.svg";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Loader from "@/components/global/Loader";
 
 interface LoginPageProps {
   // Add your prop types here
@@ -101,7 +102,7 @@ const LoginPage: NextPage<LoginPageProps> = () => {
           size="lg"
           disabled={isLoading}
         >
-          {/* {!isLoading ? "Login" : <Loader />} */}
+          {!isLoading ? "Login" : <Loader />}
         </Button>
         <span className="self-container">
           Dont have an account?{" "}

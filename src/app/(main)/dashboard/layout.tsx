@@ -1,4 +1,3 @@
-import Header from "@/components/landing-page/header";
 import React, { FC } from "react";
 
 interface LayoutProps {
@@ -6,12 +5,7 @@ interface LayoutProps {
 }
 
 const Layout: FC<LayoutProps> = ({ children }) => {
-  return (
-    <main>
-      <Header />
-      {children}
-    </main>
-  );
+  return <main className="flex h-screen overflow-hidden">{children}</main>;
 };
 
 export default Layout;
