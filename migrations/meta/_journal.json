@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1704768077872,
+      "tag": "0000_serious_pet_avengers",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1704768391971,
+      "tag": "0001_solid_vapor",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1704768669450,
+      "tag": "0002_open_talon",
+      "breakpoints": true
+    }
+  ]
+}
